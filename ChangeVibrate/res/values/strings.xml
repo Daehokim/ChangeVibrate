@@ -3,6 +3,7 @@
 
     <string name="app_name">ChangeVibrate</string>
     <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="ring_time">Set Ring Time : </string>
+    <string name="vibrate_time">Set Vibrate Time : </string>
 
 </resources>

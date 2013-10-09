@@ -9,8 +9,43 @@
     tools:context=".MainActivity" >
 
     <TextView
+        android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:text="@string/ring_time" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timePicker1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="19dp"
+        android:text="Button"
+        android:visibility="invisible"/>
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="25dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/vibrate_time"
+        android:layout_alignParentLeft="true" 
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:id="@+id/vibrate_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/timePicker2"
+        android:layout_centerVertical="true"
+        android:text="@string/vibrate_time" />
 
 </RelativeLayout>
